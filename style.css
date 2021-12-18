@@ -1,0 +1,78 @@
+body {
+  background: url("Assets/Images/01-BG-Image.png");
+  font-family: marydale, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h1 {
+  font-size: 83px;
+  line-height: 134px;
+  text-align: center;
+}
+p{
+    font-size: 50px;
+}
+.img{
+    width: 100%;
+}
+.note{
+    background-color: #FAEF95;
+    line-height: 40px;
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 60px;
+    /* padding-top: 30px; */
+    width: 285px;
+    height: 285px;
+    position: relative;
+    /* margin-top: 100px; */
+}
+.note + .note{
+    margin-left: 70px;
+}
+.sticky-notes{
+    display: flex;
+    justify-content: center;
+}
+.note-1 .tape{
+    position:absolute;
+    top: -10%;
+    left: -10%;
+}
+.note-2 .tape{
+    position:absolute;
+    top: -10%;
+    left: 40%;
+}
+.note-3 .tape{
+    position:absolute;
+    top: -10%;
+    left: -10%;
+}
+.car{
+    position: absolute;
+    bottom: -12%;
+    right: -16%;
+}
+.girl{
+    position: absolute;
+    bottom: -12%;
+    right: 0%;
+
+}
+/* .lines{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+
+}
+.line{
+    width: 223px;
+
+    border: 1px solid #000000;
+    margin-bottom: 50px;
+} */
+.bohemia{
+    margin-top: 70px;
+    font-size: 20px;
+}
